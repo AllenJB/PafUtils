@@ -11,7 +11,6 @@ namespace AllenJB\PafUtils;
  * been predicted here, in which case a bug should be filed against the library.
  *
  * @todo Tests with randomly generated data
- * @todo Tests for split building name rules
  * @todo Tests based on presence of (Dependent) Thoroughfare and (Double) Dependent Locality fields
  */
 class AddressAssembleTest extends \PHPUnit_Framework_TestCase
