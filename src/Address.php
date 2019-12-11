@@ -47,9 +47,6 @@ class Address
     }
 
 
-    /**
-     * @return null
-     */
     public function getUdprn()
     {
         return $this->udprn;
@@ -57,7 +54,6 @@ class Address
 
 
     /**
-     * @param null $udprn
      * @return self
      */
     public function setUdprn($udprn)
@@ -67,9 +63,6 @@ class Address
     }
 
 
-    /**
-     * @return null
-     */
     public function getPostcode()
     {
         return $this->postcode;
@@ -77,7 +70,6 @@ class Address
 
 
     /**
-     * @param null $postcode
      * @return self
      */
     public function setPostcode($postcode)
@@ -88,9 +80,6 @@ class Address
     }
 
 
-    /**
-     * @return null
-     */
     public function getPostTown()
     {
         return $this->postTown;
@@ -98,7 +87,6 @@ class Address
 
 
     /**
-     * @param null $postTown
      * @return self
      */
     public function setPostTown($postTown)
@@ -109,9 +97,6 @@ class Address
     }
 
 
-    /**
-     * @return null
-     */
     public function getDependentLocality()
     {
         return $this->dependentLocality;
@@ -119,7 +104,6 @@ class Address
 
 
     /**
-     * @param null $dependentLocality
      * @return self
      */
     public function setDependentLocality($dependentLocality)
@@ -130,9 +114,6 @@ class Address
     }
 
 
-    /**
-     * @return null
-     */
     public function getDoubleDependentLocality()
     {
         return $this->doubleDependentLocality;
@@ -140,7 +121,6 @@ class Address
 
 
     /**
-     * @param null $doubleDependentLocality
      * @return self
      */
     public function setDoubleDependentLocality($doubleDependentLocality)
@@ -151,9 +131,6 @@ class Address
     }
 
 
-    /**
-     * @return null
-     */
     public function getThoroughfare()
     {
         return $this->thoroughfare;
@@ -161,7 +138,6 @@ class Address
 
 
     /**
-     * @param null $thoroughfare
      * @return self
      */
     public function setThoroughfare($thoroughfare)
@@ -172,9 +148,6 @@ class Address
     }
 
 
-    /**
-     * @return null
-     */
     public function getDependentThoroughfare()
     {
         return $this->dependentThoroughfare;
@@ -182,7 +155,6 @@ class Address
 
 
     /**
-     * @param null $dependentThoroughfare
      * @return self
      */
     public function setDependentThoroughfare($dependentThoroughfare)
@@ -193,9 +165,6 @@ class Address
     }
 
 
-    /**
-     * @return null
-     */
     public function getBuildingNumber()
     {
         return $this->buildingNumber;
@@ -203,7 +172,6 @@ class Address
 
 
     /**
-     * @param null $buildingNumber
      * @return self
      */
     public function setBuildingNumber($buildingNumber)
@@ -214,9 +182,6 @@ class Address
     }
 
 
-    /**
-     * @return null
-     */
     public function getBuildingName()
     {
         return $this->buildingName;
@@ -224,7 +189,6 @@ class Address
 
 
     /**
-     * @param null $buildingName
      * @return self
      */
     public function setBuildingName($buildingName)
@@ -235,9 +199,6 @@ class Address
     }
 
 
-    /**
-     * @return null
-     */
     public function getSubBuildingName()
     {
         return $this->subBuildingName;
@@ -245,7 +206,6 @@ class Address
 
 
     /**
-     * @param null $subBuildingName
      * @return self
      */
     public function setSubBuildingName($subBuildingName)
@@ -256,9 +216,6 @@ class Address
     }
 
 
-    /**
-     * @return null
-     */
     public function getPobox()
     {
         return $this->poBox;
@@ -266,7 +223,6 @@ class Address
 
 
     /**
-     * @param null $poBox
      * @return self
      */
     public function setPoBox($poBox)
@@ -277,9 +233,6 @@ class Address
     }
 
 
-    /**
-     * @return null
-     */
     public function getDepartmentName()
     {
         return $this->departmentName;
@@ -287,7 +240,6 @@ class Address
 
 
     /**
-     * @param null $departmentName
      * @return self
      */
     public function setDepartmentName($departmentName)
@@ -298,9 +250,6 @@ class Address
     }
 
 
-    /**
-     * @return null
-     */
     public function getOrganizationName()
     {
         return $this->organizationName;
@@ -308,7 +257,6 @@ class Address
 
 
     /**
-     * @param null $organizationName
      * @return self
      */
     public function setOrganizationName($organizationName)
@@ -319,9 +267,6 @@ class Address
     }
 
 
-    /**
-     * @return null
-     */
     public function getPostcodeType()
     {
         return $this->postcodeType;
@@ -329,7 +274,6 @@ class Address
 
 
     /**
-     * @param null $postcodeType
      * @return self
      */
     public function setPostcodeType($postcodeType)
@@ -339,9 +283,6 @@ class Address
     }
 
 
-    /**
-     * @return null
-     */
     public function getSuOrganizationIndicator()
     {
         return $this->suOrganizationIndicator;
@@ -349,7 +290,6 @@ class Address
 
 
     /**
-     * @param null $suOrganizationIndicator
      * @return self
      */
     public function setSuOrganizationIndicator($suOrganizationIndicator)
@@ -359,9 +299,6 @@ class Address
     }
 
 
-    /**
-     * @return null
-     */
     public function getDeliveryPointSuffix()
     {
         return $this->deliveryPointSuffix;
@@ -369,7 +306,6 @@ class Address
 
 
     /**
-     * @param null $deliveryPointSuffix
      * @return self
      */
     public function setDeliveryPointSuffix($deliveryPointSuffix)
@@ -379,9 +315,6 @@ class Address
     }
 
 
-    /**
-     * @return null
-     */
     public function getAddressLines()
     {
         if ($this->addressLines === null) {
